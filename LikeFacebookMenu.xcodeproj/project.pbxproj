@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564ED8461AF1C2D8008D2B91 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564ED8451AF1C2D8008D2B91 /* BackTableVC.swift */; };
+		564ED8481AF1C883008D2B91 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564ED8471AF1C883008D2B91 /* SecondVC.swift */; };
+		564ED84A1AF1CAE3008D2B91 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564ED8491AF1CAE3008D2B91 /* ThirdVC.swift */; };
+		564ED84C1AF1D951008D2B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564ED84B1AF1D951008D2B91 /* Main.storyboard */; };
 		5658349B1AEF346E00825890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658349A1AEF346E00825890 /* AppDelegate.swift */; };
 		5658349D1AEF346E00825890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658349C1AEF346E00825890 /* ViewController.swift */; };
-		565834A01AEF346E00825890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5658349E1AEF346E00825890 /* Main.storyboard */; };
 		565834A21AEF346E00825890 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565834A11AEF346E00825890 /* Images.xcassets */; };
 		565834A51AEF346E00825890 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 565834A31AEF346E00825890 /* LaunchScreen.xib */; };
 		565834B11AEF346E00825890 /* LikeFacebookMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565834B01AEF346E00825890 /* LikeFacebookMenuTests.swift */; };
@@ -27,11 +30,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		564ED8451AF1C2D8008D2B91 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		564ED8471AF1C883008D2B91 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		564ED8491AF1CAE3008D2B91 /* ThirdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		564ED84B1AF1D951008D2B91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		565834951AEF346E00825890 /* LikeFacebookMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeFacebookMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		565834991AEF346E00825890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5658349A1AEF346E00825890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5658349C1AEF346E00825890 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5658349F1AEF346E00825890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		565834A11AEF346E00825890 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		565834A41AEF346E00825890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		565834AA1AEF346E00825890 /* LikeFacebookMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeFacebookMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,13 +87,16 @@
 		565834971AEF346E00825890 /* LikeFacebookMenu */ = {
 			isa = PBXGroup;
 			children = (
+				564ED84B1AF1D951008D2B91 /* Main.storyboard */,
 				565834BA1AEF3B9F00825890 /* menufile */,
 				5658349A1AEF346E00825890 /* AppDelegate.swift */,
 				5658349C1AEF346E00825890 /* ViewController.swift */,
-				5658349E1AEF346E00825890 /* Main.storyboard */,
 				565834A11AEF346E00825890 /* Images.xcassets */,
 				565834A31AEF346E00825890 /* LaunchScreen.xib */,
 				565834981AEF346E00825890 /* Supporting Files */,
+				564ED8451AF1C2D8008D2B91 /* BackTableVC.swift */,
+				564ED8471AF1C883008D2B91 /* SecondVC.swift */,
+				564ED8491AF1CAE3008D2B91 /* ThirdVC.swift */,
 			);
 			path = LikeFacebookMenu;
 			sourceTree = "<group>";
@@ -207,7 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				565834A01AEF346E00825890 /* Main.storyboard in Resources */,
+				564ED84C1AF1D951008D2B91 /* Main.storyboard in Resources */,
 				565834A51AEF346E00825890 /* LaunchScreen.xib in Resources */,
 				565834A21AEF346E00825890 /* Images.xcassets in Resources */,
 			);
@@ -227,9 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564ED84A1AF1CAE3008D2B91 /* ThirdVC.swift in Sources */,
 				5658349D1AEF346E00825890 /* ViewController.swift in Sources */,
 				5658349B1AEF346E00825890 /* AppDelegate.swift in Sources */,
+				564ED8461AF1C2D8008D2B91 /* BackTableVC.swift in Sources */,
 				565834BE1AEF3BEE00825890 /* SWRevealViewController.m in Sources */,
+				564ED8481AF1C883008D2B91 /* SecondVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,14 +264,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5658349E1AEF346E00825890 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5658349F1AEF346E00825890 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		565834A31AEF346E00825890 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,6 +434,7 @@
 				565834B61AEF346E00825890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		565834B71AEF346E00825890 /* Build configuration list for PBXNativeTarget "LikeFacebookMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +443,7 @@
 				565834B91AEF346E00825890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
